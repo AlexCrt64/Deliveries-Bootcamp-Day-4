@@ -3,7 +3,7 @@ function fillBus(peopleAtBusStops,busSeats){
   let index=0
   while(index<=peopleAtBusStops.length){
   	if (busSeats<=peopleinBus){
-    	return index-1
+    	return index
     }
     else{
     	peopleinBus=peopleinBus+peopleAtBusStops[index]
